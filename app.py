@@ -10,6 +10,11 @@ def home():
     return render_template_string('''
         <center>
         <h1>Welcome to the Flask Calculator</h1>
+        <h1>This is the best calculatorr</h1>
+        <h1>Designed at CDAC Pune</h1>
+        <h1>This can do Addition, Subtraction, Division and Multiplication</h1>
+        <h1>This is created using Flask and Python</h1>
+        <h1>Below you can use the calculator</h1>
         <p>Name: {{ name }}</p>
         <p>Roll Number: {{ roll_number }}</p>
         <form action="/calculate" method="post">
