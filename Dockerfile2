@@ -1,0 +1,6 @@
+FROM python
+WORKDIR /hpcap
+COPY . /hpcap
+RUN pip3 install flask
+EXPOSE 5000
+CMD ["python","app.py"]
